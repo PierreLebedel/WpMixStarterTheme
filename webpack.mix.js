@@ -20,8 +20,8 @@ if (local.proxy) {
     });
 }
 
-mix.js('src/js/app.js', 'dist/')
-    .sass('src/sass/app.scss', 'dist/');
+mix.js('src/js/app.js', 'dist/');
+mix.sass('src/sass/app.scss', 'dist/');
 
 if (mix.inProduction()) {
     mix.sourceMaps();
