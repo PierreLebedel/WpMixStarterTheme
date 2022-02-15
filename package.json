@@ -1,0 +1,23 @@
+{
+  "name": "wpmixstartertheme",
+  "version": "1.0.0",
+  "description": "WordPress starter theme with Laravel Mix",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "author": "Pierre Lebedel",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0",
+    "laravel-mix": "^6.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49",
+    "sass-loader": "^12.1"
+  }
+}
