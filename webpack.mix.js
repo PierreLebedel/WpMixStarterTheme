@@ -7,8 +7,6 @@ mix.autoload({
     jquery: ['$', 'window.jQuery']
 });
 
-console.log(local);
-
 try {
     var local = require('./mix-local');
 
