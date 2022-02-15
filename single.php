@@ -5,7 +5,11 @@ while(have_posts()):
 
     get_header(); ?>
 
-    ici single (#<?php the_ID(); ?>)
+    <h1><?php the_title(); ?></h1>
+
+    <pre>single (#<?php the_ID(); ?>)</pre>
+
+    <?php the_content(); ?>
 
     <?php get_footer();
 
