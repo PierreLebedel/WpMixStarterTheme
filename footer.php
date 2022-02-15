@@ -1,7 +1,5 @@
-    <footer class="site-footer">
-        Footer
-    </footer>
-    
-    <?php wp_footer() ?>
-</body>
-</html>
+<footer class="site-footer">
+    Footer
+</footer>
+
+<?php get_template_part('template-parts/footer', 'foot'); ?>
