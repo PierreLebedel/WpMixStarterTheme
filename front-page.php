@@ -7,7 +7,7 @@ while(have_posts()):
 
     <h1><?php the_title(); ?></h1>
 
-    <pre>fonr-page</pre>
+    <pre>front-page</pre>
 
     <?php the_content(); ?>
 
